@@ -14,7 +14,7 @@ const App = () => {
 
   function whatIsPalindrome() {
     Alert.alert("Help", "A palindrome is a word or sentence that's spelled the same way both forward and backward, ignoring punctuation, case, and spacing.")
-    setTitle('Type a word:')
+    setTitle('Type a word:');
   }
 
   return (
