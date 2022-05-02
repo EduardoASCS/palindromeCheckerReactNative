@@ -11,10 +11,10 @@ function palindrome(str) {
     .toLowerCase();
 
   if (string === stringReversed) {
-    return `"${str}" is a palindrome!`
+    return `"${str}" is a palindrome!`;
   } else {
-    return `"${str}" is not a plindrome.`
+    return `"${str}" is not a plindrome.`;
   }
 }
 
-export default palindrome
+export default palindrome;
